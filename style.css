@@ -13,3 +13,48 @@
     animation-duration: 3s;
     border-radius: 30px;
   }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.heading {
+    text-align: center;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#display {
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 50%; /* Adjust as needed */
+    }
+}
