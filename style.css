@@ -1,0 +1,15 @@
+/* The animation code */
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  
+  /* The element to apply the animation to */
+  .heading {
+    width: 190px;
+    height: 90px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 3s;
+    border-radius: 30px;
+  }
