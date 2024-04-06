@@ -58,3 +58,24 @@ button:hover {
         width: 50%; /* Adjust as needed */
     }
 }
+
+
+.responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.responsive-table th,
+.responsive-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+    .responsive-table th,
+    .responsive-table td {
+        display: block;
+        width: 100%;
+    }
+}
